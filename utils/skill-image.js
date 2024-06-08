@@ -18,6 +18,7 @@ import dart from '/public/svg/skills/dart.svg';
 import deno from '/public/svg/skills/deno.svg';
 import django from '/public/svg/skills/django.svg';
 import docker from '/public/svg/skills/docker.svg';
+import ethereum from '/public/svg/skills/ethereum-crypto-cryptocurrency-2-svgrepo-com.svg';
 import fastify from '/public/svg/skills/fastify.svg';
 import figma from '/public/svg/skills/figma.svg';
 import firebase from '/public/svg/skills/firebase.svg';
@@ -57,8 +58,10 @@ import python from '/public/svg/skills/python.svg';
 import pytorch from '/public/svg/skills/pytorch.svg';
 import react from '/public/svg/skills/react.svg';
 import ruby from '/public/svg/skills/ruby.svg';
+import rust from '/public/svg/skills/rust-svgrepo-com.svg';
 import selenium from '/public/svg/skills/selenium.svg';
 import sketch from '/public/svg/skills/sketch.svg';
+import solidity from '/public/svg/skills/solidity-svgrepo-com.svg';
 import strapi from '/public/svg/skills/strapi.svg';
 import svelte from '/public/svg/skills/svelte.svg';
 import swift from '/public/svg/skills/swift.svg';
@@ -72,6 +75,9 @@ import vuetifyjs from '/public/svg/skills/vuetifyjs.svg';
 import webix from '/public/svg/skills/webix.svg';
 import wolframalpha from '/public/svg/skills/wolframalpha.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
+import webassembly from '/public/svg/skills/webassembly-svgrepo-com.svg';
+import chainlink from '/public/svg/skills/chainlink-svgrepo-com.svg';
+import solana from '/public/svg/skills/solana-svgrepo-com.svg';
 
 
 export const skillsImage = (skill) => {
@@ -225,6 +231,18 @@ export const skillsImage = (skill) => {
       return wolframalpha;
     case 'canva':
       return canva;
+    case 'rust':
+      return rust;
+    case 'solidity':
+      return solidity;
+    case 'ethereum':
+      return ethereum;
+    case 'webassembly':
+      return webassembly;
+    case 'chainlink':
+      return chainlink;
+    case 'solana':
+      return solana;
     default:
       break;
   }

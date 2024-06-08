@@ -21,7 +21,9 @@ export const skillsData = [
   "Rust",
   "Ethereum",
   "Solidity",
-  "Rust",
+  "WebAssembly",
+  "Solana",
+  "Chainlink",
 ];
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
