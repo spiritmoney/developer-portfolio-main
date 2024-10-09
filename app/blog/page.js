@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import { personalData } from "@/utils/data/personal-data";
 import BlogCard from "../components/homepage/blog/blog-card";
+import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 
 function Page() {
   const [blogs, setBlogs] = useState([]);
@@ -44,7 +45,11 @@ function Page() {
   }
 
   if (isLoading) {
-    return <div>Loading...</div>;
+    return (
+      <div>
+        <ClimbingBoxLoader />
+      </div>
+    );
   }
 
   return (
